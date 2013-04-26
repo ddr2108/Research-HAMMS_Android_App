@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+<TextView
+	android:text="@string/about_titlescreen"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:layout_marginTop="40dip"
+    android:layout_marginBottom="40dip"
+    android:textSize="50sp"
+    android:textColor="@color/blue"/>
+<TextView
+	android:text="@string/about_info"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="15dip"
+	android:layout_marginLeft="15dip"
+	android:textSize="30sp"
+	android:textColor="@color/black"/>
+</LinearLayout>

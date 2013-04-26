@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro">Vestibular Rehab Assistant</string>
+    <string name="app_name">Vestibular Rehab Assistant</string>
+    <string name="begin">Begin Test</string>
+    <string name="instruct">Instructions</string>
+    <string name="option">Options</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    
+    <string name="about_title">About</string>
+    <string name="about_titlescreen">About</string>
+    <string name="about_info">This application has been created to be an addon to HAMMS system. It was developed as a project between the Georgia Institute of Technology and Emory University. 
+        </string>
+    
+    <string name="instruct_title">Instructions</string>
+    <string name="instruct_titlescreen">Instructions on use</string>
+    <string name="instruct_info">To use this application ensure you bluetooth and wifi connection are on. Then click on "Begin Test". There you will see the exercises needed to be done.
+        Click on start exercises, and click "Done with Segment" at the end of each segment. Then click on "Save Results." </string>
+	
+    <string name="begin_title">Exercises</string>
+	<string name="begin_titlescreen">Exercises</string> 
+    <string name="begin_info">No Information Avaialable</string> 
+	<string name="start">Start Exercises</string>
+    
+	<string name="monitor_title">Test</string>
+	<string name="monitor_titlescreen">Exercise Information</string> 
+	<string name="time">Time till Start</string>
+	<string name="direction">Direction</string>
+	<string name="secondsLabel">sec</string>
+    <string name="minutesLabel">min</string>
+    <string name="done">Done with Segment</string>
+    <string name="save">Save Results</string>
+    <string name="description">Arrow showing direction to turn head</string>
+    
+	<string name="save_title">Stats</string>
+    <string name="save_titlescreen">Stats</string>
+    <string name="home">Main Menu</string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="statTime">Time Spent</string>
+    <string name="frequency">Velocity Approximations</string>
+    <string name="daysDone">Days Skipped last Week:</string>
+    <string name="numSkip">00</string>
+    
+    <string name="options_title">Options</string>
+	<string name="options_titlescreen">Options</string>
+    <string name="name">What is your name?</string>
+	<string name="defaultName">John Doe</string>
+    <string name="emailTo">Who will recieve your data?</string>
+    <string name="email">Email</string>
+    <string name="defaultEmail">johndoe@gmail.com</string>
+    <string name="deviceFrom">What is the address of the visor?</string>
+    <string name="bluetooth">Bluetooth Data Collection?</string>
+    <string name="notifications">Reminders?</string>
+    <string name="notificationsTime">Reminder Time</string>
+</resources>

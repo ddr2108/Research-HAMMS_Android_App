@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginTop="40dip"
+        android:gravity="center"
+        android:text="@string/save_titlescreen"
+        android:textColor="@color/blue"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:layout_marginLeft="15dip"
+        android:gravity="left"
+        android:text="@string/statTime"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="60dip"
+            android:layout_marginRight="26dip"
+            android:text="@string/vertical"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/verticalLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="0dip"
+            android:maxWidth="140sp"
+            android:minWidth="140sp"
+            android:text="@string/vertical"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:width="140sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dip"
+            android:layout_marginLeft="60dip"
+            android:text="@string/horizontal"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/horizontalLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="35dip"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="0dip"
+            android:maxWidth="140sp"
+            android:minWidth="140sp"
+            android:text="@string/horizontal"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:width="140sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:layout_marginLeft="15dip"
+        android:gravity="left"
+        android:text="@string/frequency"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="60dip"
+            android:layout_marginRight="26dip"
+            android:text="@string/vertical"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/verticalFreqLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="0dip"
+            android:maxWidth="140sp"
+            android:minWidth="140sp"
+            android:text="@string/vertical"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:width="140sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dip"
+            android:layout_marginLeft="60dip"
+            android:text="@string/horizontal"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/horizontalFreqLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="35dip"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="0dip"
+            android:maxWidth="140sp"
+            android:minWidth="140sp"
+            android:text="@string/horizontal"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:width="140sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="15dip"
+            android:text="@string/daysDone"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/numSkip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="0dip"
+            android:maxWidth="140sp"
+            android:minWidth="140sp"
+            android:text="@string/numSkip"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:width="140sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/home"
+        android:textSize="30sp"
+        android:layout_height="100dip"
+        android:layout_width="300dip"
+        android:layout_gravity="center"
+        android:text="@string/home" />
+
+</LinearLayout>

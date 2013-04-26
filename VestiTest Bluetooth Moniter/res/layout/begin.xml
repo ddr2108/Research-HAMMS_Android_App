@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white">
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dip"
+    android:layout_marginTop="40dip"
+    android:gravity="center"
+    android:text="@string/begin_titlescreen"
+    android:textColor="@color/blue"
+    android:textSize="50sp" />
+
+<TextView
+    android:id="@+id/exerciseInfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="30dip"
+    android:maxHeight="375dp"
+    android:minHeight="375dp"
+    android:text="@string/begin_info"
+    android:textColor="@color/black"
+    android:textSize="30sp" />
+
+<Button
+	android:id="@+id/start"
+	android:textSize="30sp"
+    android:layout_height="100dip"
+    android:layout_width="300dip"
+	android:layout_gravity="center"
+	android:text="@string/start"
+/>  
+  
+</LinearLayout>

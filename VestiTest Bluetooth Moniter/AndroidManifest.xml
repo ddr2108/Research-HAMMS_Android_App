@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.gt.vestibular.assitant"
+      android:versionCode="1"
+      android:versionName="1.0">
+    
+    <!-- The INTERNET permission is required to connect to the SensorSimulator: -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" ></uses-permission>
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+        	        <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".About"
+			android:label="@string/app_name">
+		</activity>
+		<activity 
+		    android:name=".Instruct"
+			android:label="@string/app_name">
+		</activity>
+		<activity 
+		    android:name=".Monitor"
+			android:label="@string/app_name">
+		</activity>
+		<activity 
+		    android:name=".Save"
+			android:label="@string/app_name">
+		</activity>
+		<activity 
+		    android:name=".Options"
+		    android:windowSoftInputMode="stateHidden"
+			android:label="@string/app_name">
+		</activity>
+		<activity 
+		    android:name="edu.gt.vestibular.assitant.Begin"
+			android:label="@string/app_name">
+		</activity>
+		<receiver android:name="edu.gt.vestibular.assitant.AlarmReceiver"></receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+</manifest> 
